@@ -61,9 +61,9 @@ export default function Page() {
                 CyberPatriot is the National Youth Cyber Education Program
                 created by the Air & Space Forces Association. Our mission is to
                 inspire K-12 students to pursue careers in cybersecurity and
-                other STEM fields vital to our nation's future. Through hands-on
-                learning and exciting competitions, we're building the next
-                generation of cyber defenders.
+                other STEM fields vital to our nation&apos;s future. Through
+                hands-on learning and exciting competitions, we&apos;re building
+                the next generation of cyber defenders.
               </p>
             </CardContent>
           </MotionCard>
@@ -81,8 +81,8 @@ export default function Page() {
                 Youth Cyber Defense Competition. This thrilling challenge puts
                 high school and middle school students in charge of securing
                 virtual networks, simulating real-world cybersecurity scenarios.
-                It's not just a competition; it's a gateway to the exciting
-                world of cyber defense.
+                It&apos;s not just a competition; it&apos;s a gateway to the
+                exciting world of cyber defense.
               </p>
             </CardContent>
           </MotionCard>
@@ -128,8 +128,8 @@ export default function Page() {
               <CardContent>
                 <p className="text-indigo-100 mb-4">
                   Dive into Windows security. From Group Policy to Windows
-                  Defender, learn to protect the world's most popular operating
-                  system.
+                  Defender, learn to protect the world&apos;s most popular
+                  operating system.
                 </p>
                 <Link href="/cyberpatriot/windows" passHref>
                   <Button variant="secondary" className="w-full">
@@ -170,8 +170,9 @@ export default function Page() {
         >
           <h2 className="text-2xl font-semibold">Join the Cyber Today</h2>
           <p className="text-blue-200 max-w-2xl mx-auto">
-            CyberPatriot is more than just a program—it's a community of future
-            cyber leaders. Join us Cybersecurity Club to be part of that future
+            CyberPatriot is more than just a program—it&apos;s a community of
+            future cyber leaders. Join us Cybersecurity Club to be part of that
+            future
           </p>
           <Join />
         </motion.section>

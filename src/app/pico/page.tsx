@@ -98,7 +98,7 @@ export default function Page() {
                     <Medal className={award.color}>{award.place}</Medal>
                     <p className="text-gray-300">
                       {award.amount} and may have opportunity to visit Carnegie
-                      Mellon University's Pittsburgh campus for an award
+                      Mellon University&apos;s Pittsburgh campus for an award
                       ceremony
                     </p>
                   </motion.div>
