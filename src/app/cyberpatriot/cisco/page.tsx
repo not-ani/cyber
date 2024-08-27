@@ -9,7 +9,7 @@ const MotionCard = motion(Card);
 
 export default function Component() {
   const categoryData = {
-    name: "Windows",
+    name: "Cisco",
     presentations: [
       {
         title: "Presentations From Meetings",

@@ -70,6 +70,10 @@ export default function RootLayout({
                 href: "/",
               },
               {
+                title: "Cyberpatriot",
+                href: "/cyberpatriot",
+              },
+              {
                 title: "PicoCTF",
                 href: "/pico",
               },
@@ -78,17 +82,12 @@ export default function RootLayout({
                 href: "/cyberquest",
               },
               {
-                title: "Cyberpatriot",
-                href: "/cyberpatriot",
-              },
-              {
                 title: "Contact",
                 href: "/contact",
               },
             ]}
           />
           {children}
-          <Footer />
 
           <Particles
             quantityDesktop={500}
