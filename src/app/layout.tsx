@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { cn } from "@/lib/utils";
+import { ThemeProvider } from "next-themes";
+import { NavBar } from "@/components/header";
+import Particles from "@/components/particals";
+import Footer from "@/components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +21,44 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <ThemeProvider attribute="class" defaultTheme="dark">
+          <NavBar
+            items={[
+              {
+                title: "Home",
+                href: "/",
+              },
+              {
+                title: "PicoCTF",
+                href: "/pico",
+              },
+              {
+                title: "Cyberquest",
+                href: "/cyberquest",
+              },
+              {
+                title: "Cyberpatriot",
+                href: "/cyberpatriot",
+              },
+              {
+                title: "Contact",
+                href: "/contact",
+              },
+            ]}
+          />
+          {children}
+          <Footer />
+
+          <Particles
+            quantityDesktop={500}
+            quantityMobile={200}
+            ease={80}
+            color={"#F7FF9B"}
+            refresh
+          />
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
